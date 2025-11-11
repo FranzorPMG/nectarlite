@@ -28,7 +28,7 @@ const About = () => {
   return (
     <Wrapper className={'grid md:grid-cols-2 grid-cols-1 my-40'}>
         <div className="relative flex justify-center items-center">
-            <Image src={aboutImage1} width={1000} height={1000} alt='about image 1' className='md:w-[70%] relative z-10' />
+            <Image src={aboutImage1} width={1000} height={1000} alt='about image 1' className='md:w-[70%] relative z-5' />
             <Image src={aboutImage2} width={1000} height={1000} alt='about image 2' className='md:w-[40%] w-[70%] absolute md:-left-20 -left-10 md:-top-1 -top-20' />
             <Image src={aboutImage3} width={1000} height={1000} alt='about image 3' className='md:w-[60%] w-[80%] absolute md:-bottom-20 -bottom-20 md:-left-18' />
         </div>

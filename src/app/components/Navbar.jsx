@@ -10,7 +10,7 @@ const Navbar = () => {
     const [active, setActive] = useState(false);
   return (
     <div className='overflow-x-hidden'>
-        <div className="flex justify-between items-center px-5 fixed w-full bg-white z-10">
+        <div className="flex justify-between items-center px-5 fixed w-full bg-white z-10 md:hidden">
             <Image src={logo} alt='logo' width={1000} height={1000} className='w-15' />
             <Menu onClick={() => setActive(true)} />
         </div>
