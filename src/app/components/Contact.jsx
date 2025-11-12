@@ -29,15 +29,15 @@ const Contact = () => {
             backgroundPosition: 'center'
         }}>
             <div className="flex flex-col space-y-1 items-center">
-                <h6 className="text-5xl font-extrabold text-[#2f0e2d]">80k</h6>
+                <h6 className="md:text-5xl text-3xl font-extrabold text-[#2f0e2d]">80k</h6>
                 <p className="font-semibold text-[#333333]">Happy Clients</p>
             </div>
             <div className="flex flex-col space-y-1 items-center">
-                <h6 className="text-5xl font-extrabold text-[#2f0e2d]">50+</h6>
+                <h6 className="md:text-5xl text-3xl font-extrabold text-[#2f0e2d]">50+</h6>
                 <p className="font-semibold text-[#333333]">Companies</p>
             </div>
             <div className="flex flex-col space-y-1 items-center">
-                <h6 className="text-5xl font-extrabold text-[#2f0e2d]">230+</h6>
+                <h6 className="md:text-5xl text-3xl font-extrabold text-[#2f0e2d]">230+</h6>
                 <p className="font-semibold text-[#333333]">Projects Done</p>
             </div>
         </div>
