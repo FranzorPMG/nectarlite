@@ -24,17 +24,18 @@ const WorkingProcess = () => {
   ]
   return (
     <Wrapper className={'md:my-40 my-60 grid md:grid-cols-[3.2fr_6.8fr] gap-20'}>
-        <div className="p-10 py-20 rounded-xl flex flex-col space-y-5 items-start" style={{
+        <div className="p-10 py-20 rounded-xl flex flex-col space-y-5 items-start relative overflow-hidden" style={{
             backgroundImage: `url(${workingProcess.src})`
         }}>
-            <p className="text-white font-light">WORKING PROGRESS</p>
-            <span className='text-[2.3rem] font-bold text-white leading-12'>Our Working Process - How We Work For Our Customers</span>
-            <Button text={'Contact Us'} className={'text-white font-bold px-10 py-4 rounded-lg'} />
+            <div className="absolute top-0 left-0 h-full w-full bg-purple-900 mix-blend-color"></div>
+            <p className="text-white font-light relative">WORKING PROCESS</p>
+            <span className='text-[2.3rem] font-bold text-white leading-12 relative'>Our Working Process - How We Work For Our Customers</span>
+            <Button text={'Contact Us'} className={'text-white relative font-bold px-10 py-4 rounded-lg'} />
         </div>
         <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
           {processData.map((process, index) => (
             <div key={index} className="flex flex-col space-y-4">
-              <span className="text-5xl font-bold text-[#000060]">{index + 1}.</span>
+              <span className="text-5xl font-bold text-purple-900">{index + 1}.</span>
               <p className="text-2xl text-black font-semibold">{process.title}</p>
               <p>{process.desc}</p>
             </div>

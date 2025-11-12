@@ -6,7 +6,7 @@ import Carousel from './Carousel'
 
 const Projects = () => {
   return (
-    <Wrapper className={'relative h-[30rem] py-20 bg-[#000060]'}>
+    <Wrapper className={'relative h-[30rem] py-20 bg-[#2f0e2d]'}>
         <Image src={projectsBackground} width={1000} height={1000} alt='product background' className='w-full h-full absolute top-0 left-0' />
 
         <p className="font-light text-white text-center">PROJECTS</p>

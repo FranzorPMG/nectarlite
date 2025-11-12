@@ -51,7 +51,7 @@ const Testimonials = () => {
   return (
     <Wrapper className={'py-30 pb-50 bg-[#f6f7f9]'}>
         <div className="flex flex-col space-y-3 items-center">
-            <p className="text-blue-900 font-light">Testimonials</p>
+            <p className="text-purple-900 font-light">Testimonials</p>
             <h3 className='text-4xl text-center font-bold'>What Saying Our Customers</h3>
             <AnimatedSlide />
         </div>

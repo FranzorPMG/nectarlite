@@ -38,7 +38,7 @@ const Blog = () => {
   return (
     <Wrapper className={'py-30 bg-white'}>
         <div className="flex flex-col space-y-3 items-center">
-            <p className="text-blue-900 font-light">Blog</p>
+            <p className="text-purple-900 font-light">Blog</p>
             <h3 className='text-4xl text-center font-bold'>Read Our Latest Tips & Tricks</h3>
             <AnimatedSlide />
         </div>

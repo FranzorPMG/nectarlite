@@ -1,10 +1,12 @@
-import React from 'react'
+'use client'
+import React, { useEffect } from 'react'
 import background from '@/images/background.jpg'
 import Wrapper from './Wrapper'
-import { Play } from 'lucide-react'
 import Button from './Button'
+import PlayAnimation from './PlayAnimation'
 
 const Hero = () => {
+    
   return (
     <div className='h-auto' style={{
         backgroundImage: `url(${background.src})`,
@@ -16,9 +18,7 @@ const Hero = () => {
             <div className="flex flex-col space-y-5">
                 <h1 className='font-bold text-white md:text-5xl text-3xl md:leading-15'>IT Consulting Services <br /> For Your Business</h1>
                 <p className='text-white text-xl'>We are leading technology solutions providing company all over the world doing over 40 years.</p>
-                <div className="bg-gradient-to-t from-blue-900 to-blue-500 w-20 h-20 rounded-full flex justify-center items-center">
-                    <Play color='white' size={20} />
-                </div>
+                <PlayAnimation />
             </div>
             <div className="p-10 rounded-2xl flex flex-col space-y-5 bg-white md:w-[70%] ms-auto w-full md:my-0 my-5">
                 <span className="font-bold text-black text-2xl">Schedule Your Appointment</span>

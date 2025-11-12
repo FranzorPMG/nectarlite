@@ -35,8 +35,8 @@ const About = () => {
         <div className="flex md:mt-0 flex-col space-y-5 mt-20 items-start">
             <div className="flex space-x-8 items-center">
                 <div className="flex gap-3">
-                    <div className="w-4 h-1 bg-blue-900"></div>
-                    <div className="w-10 h-1 bg-blue-900"></div>
+                    <div className="w-4 h-1 bg-purple-900"></div>
+                    <div className="w-10 h-1 bg-purple-900"></div>
                 </div>
                 <p className="text-blue-900 font-light text-sm">ABOUT US</p>
             </div>
@@ -51,9 +51,11 @@ const About = () => {
                             <p className="text-sm">{technology.name}</p>
                             <p className='font-bold'>{technology.skillAmount}%</p>
                         </div>
-                        <div className="w-full rounded-sm overflow-hidden bg-[#dfedfe]">
+                        <div className="w-full rounded-sm overflow-hidden" style={{
+                            backgroundColor: 'rgb(108,33,166, 0.3)',
+                        }}>
                             <div style={{
-                                backgroundImage: 'linear-gradient(to right, rgba(45, 112, 238, 1), rgba(37, 99, 235, 1))',
+                                backgroundImage: 'linear-gradient(to right, rgb(95,26,147), rgb(108,33,166))',
                                 width: `${technology.skillAmount}%`,
                                 height: '7px',
                                 backgroundSize: '15px 15px', 

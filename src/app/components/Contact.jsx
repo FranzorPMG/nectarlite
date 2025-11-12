@@ -9,13 +9,13 @@ import reactionBackground from '@/images/reactionBackground.png'
 
 const Contact = () => {
   return (
-    <Wrapper className={'bg-[#000060] relative'}>
+    <Wrapper className={'bg-[#2f0e2d] relative'}>
         <div className="flex md:justify-end justify-center py-10 h-[40rem]">
             <Image src={dottedBackground} width={1000} height={1000} alt='dotted background' className='w-full h-full object-cover absolute left-0 top-0' />
             <Image src={contactImage} width={1000} height={1000} alt='contact image' className='absolute w-[40%] hidden md:block left-30 bottom-0' />
             <div className="md:w-1/2 flex justify-center items-center flex-col space-y-5">
                 <div className="w-20 h-20 rounded-full p-3 bg-white flex justify-center items-center">
-                    <Phone size={30} className='text-blue-500' />
+                    <Phone size={30} className='text-purple-500' />
                 </div>
                 <span className="text-xl text-white font-bold text-center">CALL US 24/7</span>
                 <h5 className="text-5xl text-white font-bold text-center">(+123) 456-9989</h5>
@@ -29,15 +29,15 @@ const Contact = () => {
             backgroundPosition: 'center'
         }}>
             <div className="flex flex-col space-y-1 items-center">
-                <h6 className="text-5xl font-extrabold text-[#03228f]">80k</h6>
+                <h6 className="text-5xl font-extrabold text-[#2f0e2d]">80k</h6>
                 <p className="font-semibold text-[#333333]">Happy Clients</p>
             </div>
             <div className="flex flex-col space-y-1 items-center">
-                <h6 className="text-5xl font-extrabold text-[#03228f]">50+</h6>
+                <h6 className="text-5xl font-extrabold text-[#2f0e2d]">50+</h6>
                 <p className="font-semibold text-[#333333]">Companies</p>
             </div>
             <div className="flex flex-col space-y-1 items-center">
-                <h6 className="text-5xl font-extrabold text-[#03228f]">230+</h6>
+                <h6 className="text-5xl font-extrabold text-[#2f0e2d]">230+</h6>
                 <p className="font-semibold text-[#333333]">Projects Done</p>
             </div>
         </div>

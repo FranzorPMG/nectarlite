@@ -62,7 +62,7 @@ const Carousel = () => {
                 <Image src={carousel.image} width={1000} height={1000} alt={carousel.title} className='w-full rounded-md' />
                 <div className="bg-white p-5 w-[80%] rounded-md flex flex-col gap-3 shadow-lg -translate-y-15 justify-center items-center">
                     <p className='text-2xl font-semibold text-black'>{carousel.title}</p>
-                    <span className='text-blue-500'>{carousel.subtitle}</span>
+                    <span className='text-purple-500'>{carousel.subtitle}</span>
                 </div>
             </div>
         ))}

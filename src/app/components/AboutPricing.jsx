@@ -7,7 +7,7 @@ import silverPackage from '@/images/silverPackage.png'
 import { CheckIcon, ClosedCaption } from 'lucide-react'
 import PackageCard from './PackageCard'
 
-const Pricing = () => {
+const AboutPricing = () => {
     const packagesData = [
         {
             packageType: "SILVER",
@@ -83,10 +83,10 @@ const Pricing = () => {
         },
     ]
   return (
-    <Wrapper className={'my-60'}>
+    <Wrapper className={'mt-40 py-40 bg-[#f5f6f9]'}>
         <div className="flex flex-col gap-5">
             <div className="flex flex-col items-center gap-3">
-                <span className="text-sm font-light text-purple-900">PRICING</span>
+                <span className="text-sm font-light text-blue-900">PRICING</span>
                 <p className="font-bold text-4xl">Our Pricing Plan</p>
                 <AnimatedSlide />
             </div>
@@ -100,4 +100,4 @@ const Pricing = () => {
   )
 }
 
-export default Pricing
+export default AboutPricing

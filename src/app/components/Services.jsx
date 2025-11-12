@@ -45,7 +45,7 @@ const Services = () => {
   return (
     <Wrapper className={'py-30 bg-[#f6f7f9]'}>
         <div className="flex flex-col space-y-3 items-center">
-            <p className="text-blue-900 font-light">SERVICES</p>
+            <p className="text-purple-900 font-light">SERVICES</p>
             <h3 className='text-4xl text-center font-bold'>We Are Offering All Kinds of IT <br /> Solutions Services</h3>
             <AnimatedSlide />
         </div>

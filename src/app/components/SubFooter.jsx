@@ -9,7 +9,7 @@ import Image from 'next/image'
 
 const SubFooter = () => {
   return (
-    <Wrapper className={'bg-[#000060] py-20 flex gap-10 items-center justify-between'}>
+    <Wrapper className={'bg-[#2f0e2d] py-20 flex gap-10 items-center justify-between'}>
         <div className="flex gap-5 flex-shrink-0 items-center">
             <Image src={lab} width={1000} height={1000} alt='Slab technology' className='w-50 saturate-0 brightness-120' />
         </div>

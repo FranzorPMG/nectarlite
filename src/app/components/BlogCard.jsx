@@ -13,11 +13,11 @@ const BlogCard = ({src, title, desc, services, date, admin}) => {
         </div>
         <div className="flex gap-5 items-center">
             <div className="flex items-center gap-3">
-                <Calendar className='text-blue-500' size={15} />
+                <Calendar className='text-purple-500' size={15} />
                 <p className='text-sm font-semibold text-[#737373]'>{date}</p>
             </div>
             <div className="flex items-center gap-3">
-                <User className='text-blue-500' size={15} />
+                <User className='text-purple-500' size={15} />
                 <p className='text-sm font-semibold text-[#737373]'>{admin}</p>
             </div>
         </div>

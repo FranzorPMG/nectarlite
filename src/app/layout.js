@@ -1,5 +1,7 @@
 import { Geist, Geist_Mono, Livvic } from "next/font/google";
 import "./globals.css";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 
 const livvic = Livvic({
@@ -19,7 +21,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${livvic.variable} antialiased`}
       >
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

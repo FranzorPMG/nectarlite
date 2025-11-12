@@ -22,7 +22,7 @@ const Navbar = () => {
                     </div>
                     <div className="flex space-x-5 items-center">
                         <div className="flex items-center space-x-2">
-                            <MapPin size={30} strokeWidth={1} color='#7eb3ef' />
+                            <MapPin size={30} strokeWidth={1} color='#4a2f48' />
                             <div className="flex flex-col -space-y-1">
                                 <p className='text-black font-semibold'>Address</p>
                                 <p className='text-black font-light'>05 kandi BR. New York</p>
@@ -30,7 +30,7 @@ const Navbar = () => {
                         </div>
                         <div className="w-[0.5px] h-[2rem] bg-[#eeeeee]"></div>
                         <div className="flex items-center space-x-2">
-                            <Mail size={30} strokeWidth={1} color='#7eb3ef' />
+                            <Mail size={30} strokeWidth={1} color='#4a2f48' />
                             <div className="flex flex-col -space-y-1">
                                 <p className='text-black font-semibold'>Email</p>
                                 <p className='text-black font-light'>contact@gmail.com</p>
@@ -38,7 +38,7 @@ const Navbar = () => {
                         </div>
                         <div className="w-[0.5px] h-[2rem] bg-[#eeeeee]"></div>
                         <div className="flex items-center space-x-2">
-                            <MapPin size={30} strokeWidth={1} color='#7eb3ef' />
+                            <MapPin size={30} strokeWidth={1} color='#4a2f48' />
                             <div className="flex flex-col -space-y-1">
                                 <p className='text-black font-semibold'>Address</p>
                                 <p className='text-black font-light'>+019988772</p>
@@ -47,15 +47,15 @@ const Navbar = () => {
                     </div>
                 </div>
             </Wrapper>
-            <div className="bg-gradient-to-r bg-gradient-to-r from-blue-900 to-blue-500 py-5">
+            <div className="bg-gradient-to-r bg-gradient-to-r from-purple-900 to-purple-500 py-5">
                 <Wrapper className={'flex justify-between items-center'}>
                     <ul className='flex space-x-10'>
-                        <li className='text-white font-bold'><Link href=''>Home</Link></li>
-                        <li className='text-white font-bold'><Link href=''>About</Link></li>
+                        <li className='text-white font-bold'><Link href='/'>Home</Link></li>
+                        <li className='text-white font-bold'><Link href='/about'>About</Link></li>
                         <li className='text-white font-bold'><Link href=''>Services</Link></li>
                         <li className='text-white font-bold'><Link href=''>Pages</Link></li>
                         <li className='text-white font-bold'><Link href=''>Blog</Link></li>
-                        <li className='text-white font-bold'><Link href=''>Contact</Link></li>
+                        <li className='text-white font-bold'><Link href='/contact'>Contact</Link></li>
                     </ul>
                     <div className="flex items-center space-x-5">
                         <Search size={20} strokeWidth={1} color='white' />
@@ -72,12 +72,12 @@ const Navbar = () => {
                 <X className='ms-auto me-5 my-5' onClick={() => setActive(false)} />
                 <Wrapper className={'flex md:flex-row flex-col justify-between md:items-center'}>
                     <ul className='flex space-x-10 space-y-10 md:flex-row flex-col'>
-                        <li className='text-black font-light border-b border-[#f6f7f9]'><Link href=''>Home</Link></li>
-                        <li className='text-black font-light border-b border-[#f6f7f9]'><Link href=''>About</Link></li>
+                        <li className='text-black font-light border-b border-[#f6f7f9]'><Link href='/'>Home</Link></li>
+                        <li className='text-black font-light border-b border-[#f6f7f9]'><Link href='/about'>About</Link></li>
                         <li className='text-black font-light border-b border-[#f6f7f9]'><Link href=''>Services</Link></li>
                         <li className='text-black font-light border-b border-[#f6f7f9]'><Link href=''>Pages</Link></li>
                         <li className='text-black font-light border-b border-[#f6f7f9]'><Link href=''>Blog</Link></li>
-                        <li className='text-black font-light border-b border-[#f6f7f9]'><Link href=''>Contact</Link></li>
+                        <li className='text-black font-light border-b border-[#f6f7f9]'><Link href='/contact'>Contact</Link></li>
                     </ul>
                     <div className="flex items-center space-x-5">
                         <Search size={20} strokeWidth={1} color='white' />
@@ -90,21 +90,21 @@ const Navbar = () => {
                         <div className="flex flex-col justify-between items-start">
                             <div className="flex flex-col space-y-5 items-start">
                                 <div className="flex items-center space-x-2">
-                                    <MapPin size={30} strokeWidth={1} color='#7eb3ef' />
+                                    <MapPin size={30} strokeWidth={1} color='#4a2f48' />
                                     <div className="flex flex-col -space-y-1">
                                         <p className='text-black font-semibold'>Address</p>
                                         <p className='text-black font-light'>05 kandi BR. New York</p>
                                     </div>
                                 </div>
                                 <div className="flex items-center space-x-2">
-                                    <Mail size={30} strokeWidth={1} color='#7eb3ef' />
+                                    <Mail size={30} strokeWidth={1} color='#4a2f48' />
                                     <div className="flex flex-col -space-y-1">
                                         <p className='text-black font-semibold'>Email</p>
                                         <p className='text-black font-light'>contact@gmail.com</p>
                                     </div>
                                 </div>
                                 <div className="flex items-center space-x-2">
-                                    <MapPin size={30} strokeWidth={1} color='#7eb3ef' />
+                                    <MapPin size={30} strokeWidth={1} color='#4a2f48' />
                                     <div className="flex flex-col -space-y-1">
                                         <p className='text-black font-semibold'>Address</p>
                                         <p className='text-black font-light'>+019988772</p>
