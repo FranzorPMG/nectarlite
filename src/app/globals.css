@@ -4,3 +4,8 @@ body{
     font-family: var(--font-livvic), sans-serif;
     overflow-x: hidden;
 }
+
+/* ::-webkit-scrollbar{
+    width: 0;
+    -webkit-appearance: none;
+} */

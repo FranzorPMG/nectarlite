@@ -1,12 +1,16 @@
 'use client'
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import background from '@/images/background.jpg'
 import Wrapper from './Wrapper'
 import Button from './Button'
 import PlayAnimation from './PlayAnimation'
+import { useGSAP } from '@gsap/react'
+import { SplitText } from 'gsap/all'
+import gsap from 'gsap'
+gsap.registerPlugin(SplitText);
 
 const Hero = () => {
-    
+    const textRef = useRef()
   return (
     <div className='h-auto' style={{
         backgroundImage: `url(${background.src})`,
@@ -16,8 +20,8 @@ const Hero = () => {
     }}>
         <Wrapper className={'py-30 grid md:grid-cols-2 grid-cols-1 items-center'}>
             <div className="flex flex-col space-y-5">
-                <h1 className='font-bold text-white md:text-5xl text-3xl md:leading-15'>IT Consulting Services <br /> For Your Business</h1>
-                <p className='text-white text-xl'>We are leading technology solutions providing company all over the world doing over 40 years.</p>
+                <h1 ref={textRef} className='font-bold text-white md:text-5xl text-3xl md:leading-15'>IT Consulting Services <br /> For Your Business</h1>
+                <p className='text-white text-xl split-word'>We are leading technology solutions providing company all over the world doing over 40 years.</p>
                 <PlayAnimation />
             </div>
             <div className="p-10 rounded-2xl flex flex-col space-y-5 bg-white md:w-[70%] ms-auto w-full md:my-0 my-5">
