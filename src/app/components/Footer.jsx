@@ -96,7 +96,7 @@ const Footer = () => {
                     <Link href="/about" className='text-[#516265]'>About</Link>
                     <div className="w-2 h-2 rounded-full bg-gradient-to-r from-[bg-gradient-to-l from-[#2f0e2d] to-[#b576b3]] to-purple-500" />
                 </div>
-                <div className="flex gap-3 items-center">
+                {/* <div className="flex gap-3 items-center">
                     <Link href="#" className='text-[#516265]'>Blog</Link>
                     <div className="w-2 h-2 rounded-full bg-gradient-to-r from-[bg-gradient-to-l from-[#2f0e2d] to-[#b576b3]] to-purple-500" />
                 </div>
@@ -107,7 +107,7 @@ const Footer = () => {
                 <div className="flex gap-3 items-center">
                     <Link href="#" className='text-[#516265]'>FAQS</Link>
                     <div className="w-2 h-2 rounded-full bg-gradient-to-r from-[bg-gradient-to-l from-[#2f0e2d] to-[#b576b3]] to-purple-500" />
-                </div>
+                </div> */}
             </div>
         </div>
     </Wrapper>
