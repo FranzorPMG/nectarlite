@@ -52,9 +52,9 @@ const Navbar = () => {
                     <ul className='flex space-x-10'>
                         <li className='text-white font-bold'><Link href='/'>Home</Link></li>
                         <li className='text-white font-bold'><Link href='/about'>About</Link></li>
-                        <li className='text-white font-bold'><Link href=''>Services</Link></li>
+                        {/* <li className='text-white font-bold'><Link href=''>Services</Link></li>
                         <li className='text-white font-bold'><Link href=''>Pages</Link></li>
-                        <li className='text-white font-bold'><Link href=''>Blog</Link></li>
+                        <li className='text-white font-bold'><Link href=''>Blog</Link></li> */}
                         <li className='text-white font-bold'><Link href='/contact'>Contact</Link></li>
                     </ul>
                     <div className="flex items-center space-x-5">
@@ -74,9 +74,9 @@ const Navbar = () => {
                     <ul className='flex space-x-10 space-y-10 md:flex-row flex-col'>
                         <li className='text-black font-light border-b border-[#f6f7f9]'><Link href='/'>Home</Link></li>
                         <li className='text-black font-light border-b border-[#f6f7f9]'><Link href='/about'>About</Link></li>
-                        <li className='text-black font-light border-b border-[#f6f7f9]'><Link href=''>Services</Link></li>
+                        {/* <li className='text-black font-light border-b border-[#f6f7f9]'><Link href=''>Services</Link></li>
                         <li className='text-black font-light border-b border-[#f6f7f9]'><Link href=''>Pages</Link></li>
-                        <li className='text-black font-light border-b border-[#f6f7f9]'><Link href=''>Blog</Link></li>
+                        <li className='text-black font-light border-b border-[#f6f7f9]'><Link href=''>Blog</Link></li> */}
                         <li className='text-black font-light border-b border-[#f6f7f9]'><Link href='/contact'>Contact</Link></li>
                     </ul>
                     <div className="flex items-center space-x-5">
