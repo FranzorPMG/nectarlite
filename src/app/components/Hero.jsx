@@ -20,6 +20,7 @@ const Hero = () => {
     }}>
         <Wrapper className={'py-30 grid md:grid-cols-2 grid-cols-1 items-center'}>
             <div className="flex flex-col space-y-5">
+                <h1 ref={textRef} className='font-bold text-white md:text-5xl text-3xl md:leading-15'>Nectarlite Technology</h1>
                 <h1 ref={textRef} className='font-bold text-white md:text-5xl text-3xl md:leading-15'>IT Consulting Services <br /> For Your Business</h1>
                 <p className='text-white text-xl split-word'>We are leading technology solutions providing company all over the world doing over 40 years.</p>
                 <PlayAnimation />

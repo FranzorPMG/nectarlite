@@ -69,7 +69,7 @@ const About = () => {
                     }
                 }}
             >    
-                <Image src={aboutImage1} width={1000} height={1000} alt='about image 1' className='w-full' />
+            <Image src={aboutImage1} width={1000} height={1000} alt='about image 1' className='w-full' />
             </motion.div>
             <Image src={aboutImage2} width={1000} height={1000} alt='about image 2' className='md:w-[40%] w-[70%] absolute md:-left-20 -left-10 md:-top-1 -top-20 -translate-y-200 translate-x-200 opacity-0 animate-image' />
             <Image src={aboutImage3} width={1000} height={1000} alt='about image 3' className='md:w-[60%] w-[80%] absolute md:-bottom-10 -bottom-20 md:-left-18 -translate-y-250 translate-x-200 opacity-0 animate-image' />

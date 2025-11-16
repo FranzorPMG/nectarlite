@@ -33,15 +33,15 @@ const Navbar = () => {
                             <Mail size={30} strokeWidth={1} color='#4a2f48' />
                             <div className="flex flex-col -space-y-1">
                                 <p className='text-black font-semibold'>Email</p>
-                                <p className='text-black font-light'>contact@gmail.com</p>
+                                <p className='text-black font-light'>example@gmail.com</p>
                             </div>
                         </div>
                         <div className="w-[0.5px] h-[2rem] bg-[#eeeeee]"></div>
                         <div className="flex items-center space-x-2">
-                            <MapPin size={30} strokeWidth={1} color='#4a2f48' />
+                            <Phone size={30} strokeWidth={1} color='#4a2f48' />
                             <div className="flex flex-col -space-y-1">
-                                <p className='text-black font-semibold'>Address</p>
-                                <p className='text-black font-light'>+019988772</p>
+                                <p className='text-black font-semibold'>Phone</p>
+                                <p className='text-black font-light'>00000000000</p>
                             </div>
                         </div>
                     </div>
@@ -100,14 +100,14 @@ const Navbar = () => {
                                     <Mail size={30} strokeWidth={1} color='#4a2f48' />
                                     <div className="flex flex-col -space-y-1">
                                         <p className='text-black font-semibold'>Email</p>
-                                        <p className='text-black font-light'>contact@gmail.com</p>
+                                        <p className='text-black font-light'>example@gmail.com</p>
                                     </div>
                                 </div>
                                 <div className="flex items-center space-x-2">
                                     <MapPin size={30} strokeWidth={1} color='#4a2f48' />
                                     <div className="flex flex-col -space-y-1">
                                         <p className='text-black font-semibold'>Address</p>
-                                        <p className='text-black font-light'>+019988772</p>
+                                        <p className='text-black font-light'>00000000000</p>
                                     </div>
                                 </div>
                             </div>

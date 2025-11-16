@@ -16,7 +16,7 @@ const GetInTouch = () => {
                     </div>
                     <div className="flex flex-col gap-3">
                         <p className="font-semibold">Email:</p>
-                        <span className="font-light">contact@gmail.com</span>
+                        <span className="font-light">example@gmail.com</span>
                     </div>
                 </div>
                 <div className="flex gap-4 items-center">    

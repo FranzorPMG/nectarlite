@@ -14,6 +14,7 @@ const Footer = () => {
         <div className={'grid md:grid-cols-4 grid-cols-1 py-20 relative gap-10'} >
             <div className="flex flex-col space-y-3 relative">
                 <Image src={logo} alt='logo' width={1000} height={1000} className='w-20' />
+                <h1 className='font-bold text-purple-900 text-3xl'>Nectarlite Technology</h1>
                 <p className="font-light">Elevating your business with cutting-edge technology and reliable digital platforms.</p>
                 <div className="flex gap-3 items-center">
                     <div className="w-12 h-12 flex justify-center hover:bg-purple-900 transition-all duration-500 ease-in-out cursor-pointer group items-center rounded-full bg-white">
@@ -60,11 +61,11 @@ const Footer = () => {
                     </div>
                     <div className="flex space-x-3">
                         <Phone size={20} strokeWidth={1} className='text-purple-500' />
-                        <p className="font-light">(+880)155 69569 365</p>
+                        <p className="font-light">00000000000</p>
                     </div>
                     <div className="flex space-x-3">
                         <Mail size={20} strokeWidth={1} className='text-purple-500' />
-                        <p className="font-light">contact@gmail.com</p>
+                        <p className="font-light">example@gmail.com</p>
                     </div>
                     <div className="flex space-x-3">
                         <Clock size={20} strokeWidth={1} className='text-purple-500' />
@@ -86,7 +87,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="flex md:flex-row flex-col justify-between gap-5 md:items-center items-start relative">
-            <p className='text-[#5a6265]'>© 2025 All Rights Reserved. Design & Developed By RSTheme</p>
+            <p className='text-[#5a6265]'>© 2025 All Rights Reserved</p>
             <div className="flex md:flex-row flex-col gap-5 items-center">
                 <div className="flex gap-3 items-center">
                     <Link href="/" className='text-[#516265]'>Home</Link>

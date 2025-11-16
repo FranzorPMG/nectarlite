@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Image from 'next/image'
 import Wrapper from './Wrapper'
 import dottedBackground from '@/images/dottedBackground.png'
@@ -6,8 +6,29 @@ import contactImage from '@/images/contactImage.png'
 import { Phone } from 'lucide-react'
 import Button from './Button'
 import reactionBackground from '@/images/reactionBackground.png'
+import CountUp from 'react-countup'
+import { useInView } from 'framer-motion'
 
 const Contact = () => {
+    const counterRef = useRef()
+
+    const isInView = useInView(counterRef, { once: false, amount: 0.5 })
+
+    const reactionData = [
+        {
+            name: "Happy Clients",
+            amount: 80
+        },
+        {
+            name: "Companies",
+            amount: 50
+        },
+        {
+            name: "Projects Done",
+            amount: 230
+        }
+    ]
+
   return (
     <Wrapper className={'bg-[#2f0e2d] relative'}>
         <div className="flex md:justify-end justify-center py-10 h-[40rem]">
@@ -28,18 +49,16 @@ const Contact = () => {
             backgroundSize: 'cover',
             backgroundPosition: 'center'
         }}>
-            <div className="flex flex-col space-y-1 items-center">
-                <h6 className="md:text-5xl text-3xl font-extrabold text-[#2f0e2d]">80k</h6>
-                <p className="font-semibold text-[#333333]">Happy Clients</p>
-            </div>
-            <div className="flex flex-col space-y-1 items-center">
-                <h6 className="md:text-5xl text-3xl font-extrabold text-[#2f0e2d]">50+</h6>
-                <p className="font-semibold text-[#333333]">Companies</p>
-            </div>
-            <div className="flex flex-col space-y-1 items-center">
-                <h6 className="md:text-5xl text-3xl font-extrabold text-[#2f0e2d]">230+</h6>
-                <p className="font-semibold text-[#333333]">Projects Done</p>
-            </div>
+            {reactionData.map((reaction, index) => (
+                <div ref={counterRef} key={index} className="flex flex-col space-y-1 items-center">
+                    {reaction.amount === 80 ? (
+                        <h6 className="md:text-5xl text-2xl font-extrabold text-[#2f0e2d]"><CountUp key={isInView ? 'in' : 'out'} end={reaction.amount} suffix='k' /></h6>
+                    ) : (
+                        <h6 className="md:text-5xl text-2xl font-extrabold text-[#2f0e2d]"><CountUp key={isInView ? 'in' : 'out'} end={reaction.amount} suffix='+' /></h6>  
+                    )}
+                    <p className="font-semibold text-[#333333]">{reaction.name}</p>
+                </div>
+            ))}
         </div>
     </Wrapper>
   )
