@@ -19,8 +19,8 @@ const AboutUs = () => {
                 ABOUT US
             </div>
             <h2 className='text-4xl font-bold text-black'>We Are Increasing Business Success With Technology</h2>
-            <p className='text-[#c3c3c3]'>Over 25 years working in IT services developign software applications and mobile apps for clients all over the world.</p>
-            <p className='text-[#c3c3c3]'>We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, tht they cannot foresee the pain and troubel that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying.</p>
+            <p className='text-[#c3c3c3]'>Nectarlite Technology is a technology-driven company focused on building practical, reliable, and accessible digital solutions that bring essential services directly to people’s doorsteps.</p>
+            <p className='text-[#c3c3c3]'>Through its growing ecosystem of mobile applications and platforms, Nectarlite aims to simplify everyday life by connecting users to transportation, food, and future on-demand services with speed, efficiency, and trust.</p>
             <Button text={'Learn More'} className={'px-10 py-3 rounded-full'} />
         </div>
     </Wrapper>

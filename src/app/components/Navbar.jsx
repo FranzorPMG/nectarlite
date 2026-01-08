@@ -47,7 +47,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </Wrapper>
-            <div className="bg-gradient-to-r bg-gradient-to-r from-purple-900 to-purple-500 py-5">
+            <div className="bg-gradient-to-r from-purple-900 to-purple-500 py-5">
                 <Wrapper className={'flex justify-between items-center'}>
                     <ul className='flex space-x-10'>
                         <li className='text-white font-bold'><Link href='/'>Home</Link></li>
@@ -55,6 +55,7 @@ const Navbar = () => {
                         {/* <li className='text-white font-bold'><Link href=''>Services</Link></li>
                         <li className='text-white font-bold'><Link href=''>Pages</Link></li>
                         <li className='text-white font-bold'><Link href=''>Blog</Link></li> */}
+                        <li className='text-white font-bold'><Link href='/whitepaper'>White Paper</Link></li>
                         <li className='text-white font-bold'><Link href='/contact'>Contact</Link></li>
                     </ul>
                     <div className="flex items-center space-x-5">
