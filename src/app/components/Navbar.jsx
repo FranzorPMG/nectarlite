@@ -55,7 +55,7 @@ const Navbar = () => {
                         {/* <li className='text-white font-bold'><Link href=''>Services</Link></li>
                         <li className='text-white font-bold'><Link href=''>Pages</Link></li>
                         <li className='text-white font-bold'><Link href=''>Blog</Link></li> */}
-                        <li className='text-white font-bold'><Link href='/whitepaper'>White Paper</Link></li>
+                        {/* <li className='text-white font-bold'><Link href='/whitepaper'>White Paper</Link></li> */}
                         <li className='text-white font-bold'><Link href='/contact'>Contact</Link></li>
                     </ul>
                     <div className="flex items-center space-x-5">

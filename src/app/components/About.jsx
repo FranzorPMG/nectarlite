@@ -85,7 +85,7 @@ const About = () => {
             <h2 className="font-bold text-black text-4xl leading-12">
                 We Are Increasing Business Success With Technology
             </h2>
-            <p className="text-[#454545] text-lg">Nectarlite Technology is a technology-driven company focused on building practical, reliable, and accessible digital solutions that bring essential services directly to people’s doorsteps.</p>
+            <p className="text-[#454545] text-lg">Nectarlite Technology is a technology-driven company focused on building practical, reliable, and accessible digital solutions that bring essential services directly to people’s doorsteps. Through its growing ecosystem of mobile applications and platforms, Nectarlite aims to simplify everyday life by connecting users to transportation, food, and future on-demand services with speed, efficiency, and trust.</p>
             <div className="flex flex-col space-y-5 w-full items-start">
                 {technologies.map((technology, index) => (    
                     <div key={index} className="flex w-full flex-col space-y-3">

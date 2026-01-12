@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="flex flex-col space-y-3 relative">
                 <Image src={logo} alt='logo' width={1000} height={1000} className='w-20' />
                 <h1 className='font-bold text-purple-900 text-3xl'>Nectarlite Technology</h1>
-                <p className="font-light">Elevating your business with cutting-edge technology and reliable digital platforms.</p>
+                <p className="font-light">Nectarlite Technology is more than a company—it is a growing ecosystem built to simplify life through technology.</p>
                 <div className="flex gap-3 items-center">
                     <div className="w-12 h-12 flex justify-center hover:bg-purple-900 transition-all duration-500 ease-in-out cursor-pointer group items-center rounded-full bg-white">
                         <Facebook strokeWidth={1} size={20} className='group-hover:text-white text-[#5a6265]' />

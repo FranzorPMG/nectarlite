@@ -59,11 +59,11 @@ const LenisScrollPage = () => {
         <Services />
         <Contact />
         <WorkingProcess />
-        <Projects />
-        <Pricing />
-        <Testimonials />
-        <Blog />
-        <SubFooter />
+        {/* <Projects /> */}
+        {/* <Pricing /> */}
+        {/* <Testimonials /> */}
+        {/* <Blog /> */}
+        {/* <SubFooter /> */}
     </>
   )
 }

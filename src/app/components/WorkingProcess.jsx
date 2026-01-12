@@ -6,19 +6,19 @@ import Button from './Button'
 const WorkingProcess = () => {
   const processData = [
     {
-      title: "Descovery", 
+      title: "Drives digital adoption in emerging markets", 
       desc: 'This is where clarity begins. We conduct in-depth research, define the core problem, validate assumptions, and align stakeholders to establish a clear, data-driven product vision and definitive project scope.'
     },
     {
-      title: "Planning", 
+      title: "Improves access to essential services", 
       desc: 'We turn vision into a detailed blueprint. This phase generates a complete strategic roadmap, technical architecture, resource plan, and defined milestones, ensuring a predictable, efficient, and successful execution phase.'
     },
     {
-      title: "Execute", 
+      title: "Supports small and medium-sized businesses", 
       desc: 'The core build phase. Using Agile and DevOps methodologies, our expert teams rapidly develop, integrate, and rigorously test the solution. We prioritize transparency and continuous feedback to build the right product, right.'
     },
     {
-      title: "Descovery", 
+      title: "Creates employment opportunities", 
       desc: 'Successful launch and transition. We manage the secure, seamless deployment of the final product, provide comprehensive training, and supply all documentation needed to ensure a smooth, confident handover and sustained operational success.'
     },
   ]
@@ -28,8 +28,9 @@ const WorkingProcess = () => {
             backgroundImage: `url(${workingProcess.src})`
         }}>
             <div className="absolute top-0 left-0 h-full w-full bg-purple-900 mix-blend-color"></div>
-            <p className="text-white font-light relative">WORKING PROCESS</p>
-            <span className='text-[2.3rem] font-bold text-white leading-12 relative'>Our Working Process - How We Work For Our Customers</span>
+            <p className="text-white font-light relative">Market Impact</p>
+            <span className='text-[2.3rem] font-bold text-white leading-12 relative'>
+By combining technology with local service providers, Nectarlite:</span>
             <Button text={'Contact Us'} className={'text-white relative font-bold px-10 py-4 rounded-lg'} />
         </div>
         <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
@@ -37,7 +38,7 @@ const WorkingProcess = () => {
             <div key={index} className="flex flex-col space-y-4">
               <span className="text-5xl font-bold text-purple-900">{index + 1}.</span>
               <p className="text-2xl text-black font-semibold">{process.title}</p>
-              <p>{process.desc}</p>
+              {/* <p>{process.desc}</p> */}
             </div>
           ))}
         </div>

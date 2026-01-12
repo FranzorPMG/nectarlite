@@ -22,7 +22,7 @@ const Hero = () => {
             <div className="flex flex-col space-y-5">
                 <h1 ref={textRef} className='font-bold text-white md:text-5xl text-3xl md:leading-15'>NECTARLITE TECHNOLOGY</h1>
                 <h1 ref={textRef} className='font-bold text-white md:text-5xl text-3xl md:leading-15'>Leading Technology<br /> To Your Doorstep</h1>
-                <p className='text-white text-xl split-word'>We are leading technology solutions providing company all over the world doing over 40 years.</p>
+                <p className='text-white text-xl split-word'>Nectarlite Technology is more than a company—it is a growing ecosystem built to simplify life through technology. </p>
                 <PlayAnimation />
             </div>
             <div className="p-10 rounded-2xl flex flex-col space-y-5 bg-white md:w-[70%] ms-auto w-full md:my-0 my-5">
