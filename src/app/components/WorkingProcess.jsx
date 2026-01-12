@@ -33,6 +33,7 @@ const WorkingProcess = () => {
 By combining technology with local service providers, Nectarlite:</span>
             <Button text={'Contact Us'} className={'text-white relative font-bold px-10 py-4 rounded-lg'} />
         </div>
+        
         <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
           {processData.map((process, index) => (
             <div key={index} className="flex flex-col space-y-4">
